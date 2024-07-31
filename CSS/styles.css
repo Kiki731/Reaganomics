@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap'); */
+*{
+     font-family: 'Inter', sans-serif;
+    /* font-family: Orbitron; */
+}
+.navbar{ 
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.stp{
+    font-weight: 600; 
+    color:#AD7DEB  !important;
+}
+.stp:hover{
+    color: #4617FF;
+}
+.imgw{
+    width: 40px !important;
+
+}
+.ds{
+    display: inline-block;
+    color: #AD7DEB;
+}
+.hero{
+    position: relative;
+}
+.main{
+    text-align: center;
+    /* margin-top: 130px; */
+    font-weight: 600;
+    font-size: 48px;
+    color: white !important;
+}
+.createbg{
+    background-color: #AD7DEB;
+    height: 90vh;
+}
+.test{
+    color: White ;
+}
+.btnx{
+    background-color: #6139FF;
+}
+.btns{
+    border-color: #6139FF;
+    color: #6139FF;
+}
+.btnx:hover{
+    background-color: #4617FF; 
+}
+
+.btns:hover{
+    color: white !important;
+    background-color: #4617FF;
+}
+.qsq{
+    text-decoration: none;
+    color: #6139FF;
+}
+.qsq:hover{
+    color: white;
+}
+.ksk{
+    text-decoration: none;
+    color: white;
+}
+.ksk:hover{
+    color: white;
+}
+.main-head{
+    max-width: 250px;
+    margin-top: 80px;
+
+}
+p{
+    font-weight: 500;
+}
+.symph{
+    color: #AD7DEB;
+/* background-color: aqua;
+width: 140px;
+background-position: center; */
+}
+.quick{
+    width: fit-content;
+}
+.tester{
+    display: none;
+}
+.res{
+    margin-top: 30px;
+    background-color: #AD7DEB;
+    color: white !important;
+    text-align: center;
+}
+
+@media (max-width: 840px) {
+    .tester{
+        display: block;
+    }
+    .test{
+        display: none !important;
+    }
+    .main{
+        font-size: 25px !important;
+    }
+    .createbg{
+        height: 85vh;
+    }
+    p{
+        font-weight: 400;
+    }
+    .stp{
+        font-weight: 400;
+    }
+    .res{
+        margin-top: 10px;
+        font-size: 10px;
+        background-color: #AD7DEB;
+        color: white !important;
+        text-align: center;
+    }
+}
