@@ -8,6 +8,7 @@
     background-color: white;
     position: fixed;
     width: 100%;
+        z-index: 999;
 }
 html{
     scroll-behavior: smooth;
@@ -109,6 +110,17 @@ background-position: center; */
     color: #AD7DEB;
     text-decoration: underline;
 }
+.roadmap{
+    margin-top: 60px;
+}
+.final{
+    text-align: center;
+    background-color: #AD7DEB;
+    color: white !important;
+}
+.fix{
+    margin-bottom: 0px;
+}
 
 @media (max-width: 840px) {
     .tester{
@@ -125,6 +137,7 @@ background-position: center; */
     }
     p{
         font-weight: 400;
+        font-size: 14px;
     }
     .stp{
         font-weight: 400;
@@ -139,4 +152,5 @@ background-position: center; */
     .bs{
         margin-top: 20px !important;
     }
+
 }
